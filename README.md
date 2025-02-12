@@ -1,5 +1,5 @@
 # screenshot
-![Computer with Code](./Screenshot%20(23).png)
+![Computer with Code](./book%20review/Screenshot%20(23).png)
 # Application name
 *BOOK REVIEW*
 # Description
