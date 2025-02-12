@@ -1,0 +1,22 @@
+<%- include('../partials/head') %>
+
+<div class="container">
+    <h1>Editing Review: <%= review.title %></h1>
+    <form action="/reviews/<%= user._id %>/<%= review._id %>?_method=PUT" method="POST">
+        <label for="">Title: </label>
+        <input type="text" name="title" value="<%= review.title %>">
+        
+        <label for="">Author: </label>
+        <input type="text" name="author" value="<%= review.author %>">
+        
+        <label for="">Rating: </label>
+        <input type="number" name="rating" value="<%= review.rating %>" min="1" max="5">
+        
+        <label for="">Review Text: </label>
+        <textarea name="reviewText"><%= review.reviewText %></textarea>
+        
+        <button type="submit" class="btn btn-secondary">Edit Review</button>
+    </form>
+</div>
+
+<%- include('../partials/footer') %>
