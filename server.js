@@ -23,9 +23,7 @@ mongoose.connection.on('connected', () => {
 })
 
 
-// app.get('/', (req, res) => {
-//     res.render('index.ejs');
-// });
+
 
 // // MIDDLEWARE
 
@@ -68,9 +66,7 @@ app.get('/auth/sign-in', authCtrl.signInForm)
 app.post('/auth/sign-in', authCtrl.signIn)
 app.get('/auth/sign-out', authCtrl.signOut)
 app.get('/vip-lounge', isSignedIn, vipCtrl.welcome)
-// app.use('/auth', authController);
-// app.use('/reviews', reviewsCtrl);
-// app.use('/listings', isSignedIn, listingsController);
+
 
 app.use(isSignedIn)
 
