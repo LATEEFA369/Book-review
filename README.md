@@ -3,7 +3,8 @@
 
 ![Screenshot (30)](https://github.com/user-attachments/assets/10b2bf18-44ac-490f-8429-171b38df5407)
 
-![Computer with Code](./book%20review/Screenshot%20(23).png)
+![Screenshot (23)](https://github.com/user-attachments/assets/97be8320-de1d-4c05-ac26-ea6e7559fdf9)
+
 # Application name
 *BOOK REVIEW*
 # Description
