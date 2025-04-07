@@ -7,7 +7,7 @@ Book Review App is an application that allows users to add reviews for their fav
 
 I chose this project because it allows users to share their book experiences with others, creating a community of people who care about reading and reviewing books.
 
-[[https://book-reviewer-91e4abf8a60c.herokuapp.com/](https://paw-track-livid.vercel.app/)]
+[[https://book-reviewer-91e4abf8a60c.herokuapp.com/]
 
 
 # Instructions
